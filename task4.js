@@ -1,7 +1,9 @@
+const fetch = require('node-fetch')
+
 fetch('https://jsonplaceholder.typicode.com/users')
-.then(function(response){
-    return response.json()
-})
-.then(function(user){
-    console.log(user)
+.then(res => res.json)
+.then(data => {
+    data.map(e => e.name())
+}).catch (e=>{
+    console.log('error')
 })

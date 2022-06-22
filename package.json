@@ -1,15 +1,27 @@
 {
   "name": "javascript3",
   "version": "1.0.0",
-  "description": "",
+  "description": "node package",
   "main": "promise.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Himawan",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^3.2.6"
-  }
+    "node-fetch": "^2.6.7"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HimawanArifSM/fw9-javascript3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HimawanArifSM/fw9-javascript3/issues"
+  },
+  "homepage": "https://github.com/HimawanArifSM/fw9-javascript3#readme"
 }
