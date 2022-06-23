@@ -1,6 +1,6 @@
 const getMonth = (callback)=>{
     setTimeout(()=>{
-        let error = false
+        let error = true
         let month = ['January', 'February', 'March', 'April', 'May',
                     'June', 'Jully', 'August', 'September', 'October', 
                     'November','December']
@@ -12,9 +12,13 @@ const getMonth = (callback)=>{
     },000)
 }
 
-function showMonth(mth){
-    getMonth(()=>{
-        console.log(month.map())
-    })
+mapMonth=(n, month)=>{
+    if (n==null){
+            month.map(e=>{console.log(e)})
+        }
+        else{
+            return console.log(n)
+        }
 }
-getMonth('January')
+
+getMonth(mapMonth)
